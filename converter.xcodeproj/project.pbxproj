@@ -19,6 +19,8 @@
 		1D006AB417FE8CD0002EAA4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D006A9C17FE8CD0002EAA4E /* UIKit.framework */; };
 		1D006ABC17FE8CD0002EAA4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D006ABA17FE8CD0002EAA4E /* InfoPlist.strings */; };
 		1D006ABE17FE8CD0002EAA4E /* converterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D006ABD17FE8CD0002EAA4E /* converterTests.m */; };
+		1D006AC917FE8D33002EAA4E /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D006AC817FE8D33002EAA4E /* ConverterViewController.m */; };
+		1D006ACB17FE9199002EAA4E /* ConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D006ACA17FE9199002EAA4E /* ConverterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		1D006AB917FE8CD0002EAA4E /* converterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "converterTests-Info.plist"; sourceTree = "<group>"; };
 		1D006ABB17FE8CD0002EAA4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D006ABD17FE8CD0002EAA4E /* converterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = converterTests.m; sourceTree = "<group>"; };
+		1D006AC717FE8D33002EAA4E /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		1D006AC817FE8D33002EAA4E /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
+		1D006ACA17FE9199002EAA4E /* ConverterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConverterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				1D006AA817FE8CD0002EAA4E /* AppDelegate.m */,
 				1D006AAA17FE8CD0002EAA4E /* Images.xcassets */,
 				1D006A9F17FE8CD0002EAA4E /* Supporting Files */,
+				1D006AC717FE8D33002EAA4E /* ConverterViewController.h */,
+				1D006AC817FE8D33002EAA4E /* ConverterViewController.m */,
+				1D006ACA17FE9199002EAA4E /* ConverterViewController.xib */,
 			);
 			path = converter;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D006AA317FE8CD0002EAA4E /* InfoPlist.strings in Resources */,
+				1D006ACB17FE9199002EAA4E /* ConverterViewController.xib in Resources */,
 				1D006AAB17FE8CD0002EAA4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D006AC917FE8D33002EAA4E /* ConverterViewController.m in Sources */,
 				1D006AA917FE8CD0002EAA4E /* AppDelegate.m in Sources */,
 				1D006AA517FE8CD0002EAA4E /* main.m in Sources */,
 			);
